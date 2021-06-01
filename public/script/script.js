@@ -56,9 +56,9 @@ function msgText(msg) {
 }
 
 function msgImage(msg) {
-    let image = '.img/user_2.jpg'
+    let image = './img/user_2.jpg'
     if (msg.name === name) {
-        image = '.img/user_1.jpg'
+        image = './img/user_1.jpg'
     }
     return image
 }
